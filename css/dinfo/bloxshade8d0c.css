@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1102px) {
+    body #intro{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    body .adsensebox{
+        display: none;
+    }
+
+    body .downloadbtn{
+        float: none;
+    }
+}
+
+main{
+    padding: 12px;
+}
+
+.section{
+    padding: 12px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+}
+
+#intro img {
+    margin-right: 12px;
+    height: 150px;
+    width: 150px;
+}
+
+.downloadbtn{
+    background-color: #61CA87;
+    color: white;
+    font-weight: 400;
+    padding: 8px 20px;
+    font-size: 20px;
+    float: right;
+}
+
+/* FAQ */
+
+#faq #faq .qa {
+    margin: 12px 0;
+}
+
+#faq .q{
+    position: relative;
+    border: gray;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#faq .q:before {
+    content: "Q: ";
+}
+
+#faq .a{
+    margin-right: 38px;
+    position: relative;
+    border: gray;
+    border-radius: 15px;
+    margin-top: 12px;
+    text-align: left;
+}
+
+#faq hr{
+    margin: 12px 0px;
+    background-color: var(--color-secondary);;
+    height: 1px;
+}
+
+.instructions li img{
+    max-height: 320px;
+    display: block;
+    margin-top: var(--less-padding);
+}
